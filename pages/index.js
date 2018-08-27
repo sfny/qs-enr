@@ -11,8 +11,8 @@ export default () =>
     <div className='input-row'>input row</div>
     <div className='input-row'>input row</div>
     <div className='btn-wrapper'>
-      <button className='btn-primary'>Next</button>
-    </div>
+    <button className='btn-primary'>Next</button>
+</div>
   </div>
     <style jsx>{`
       .card {
@@ -23,12 +23,13 @@ export default () =>
         width: 26em;
         height: 38em;
         min-height: 584px;
+        min-width: 280px;
         border-radius: 24px;
         padding-top: 1em;
         padding-bottom: 1em;
         padding-left: 6em;
         padding-right: 6em;
-        box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2), 0px 24px 32px 0px rgba(0, 0, 0, 0.07);
+        box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2), 0px 24px 24px 0px rgba(0, 0, 0, 0.07);
 
       }
       p,h1,h2 {
@@ -36,6 +37,7 @@ export default () =>
       }
       h1 {
         font-size: 30px;
+        font-weight: 500;
         line-height: 0px;
       }
       p {
